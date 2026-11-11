@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.5)  6 NOV 2026 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.5)  11 NOV 2026 01:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Geral/Documents/1-Mestrado/SAI/Elephant_MyCobot280/3-Documenta√ß√£o/LaTeX/main.tex
-(c:/Users/Geral/Documents/1-Mestrado/SAI/Elephant_MyCobot280/3-Documenta√ß√£o/LaTeX/main.tex
+**c:/Users/Geral/Documents/1-Mestrado/CA/Modulo2/CA-TPCs/TPC1/LaTeX/main.tex
+(c:/Users/Geral/Documents/1-Mestrado/CA/Modulo2/CA-TPCs/TPC1/LaTeX/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -591,68 +591,175 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen282
 \titlewidthlast=\dimen283
 \titlewidthfirst=\dimen284
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 12.
+) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip80
+\f@nch@offset@elh=\skip81
+\f@nch@offset@erh=\skip82
+\f@nch@offset@olh=\skip83
+\f@nch@offset@orh=\skip84
+\f@nch@offset@elf=\skip85
+\f@nch@offset@erf=\skip86
+\f@nch@offset@olf=\skip87
+\f@nch@offset@orf=\skip88
+\f@nch@height=\skip89
+\f@nch@footalignment=\skip90
+\f@nch@widthL=\skip91
+\f@nch@widthC=\skip92
+\f@nch@widthR=\skip93
+\@temptokenb=\toks44
+) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (HMM)
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
+Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count374
+) 
+)) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count375
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
+\U@D=\dimen285
+\l@unhyphenated=\language79
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count376
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel-portuguese.tex)
+Package babel Info: Importing font and identification data for portuguese
+(babel)             from babel-pt.ini. Reported on input line 4320.
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portuguese.ldf
+Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 132.
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 47.
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 18.
+Package glossaries Info: Writing glossary file main.glo on input line 53.
 \glo@acronym@file=\write6
 \openout6 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 18.
- (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+Package glossaries Info: Writing glossary file main.acn on input line 53.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 55.
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count374
+\l__color_backend_stack_int=\count377
 ) (main.aux
+Package babel Info: 'portuguese' activates 'portuges' shorthands.
+(babel)             Reported on input line 17.
 
-LaTeX Warning: Label `eq:1.11' multiply defined.
+
+LaTeX Warning: Label `lst:obs_result' multiply defined.
 
 
-LaTeX Warning: Label `fig:traj-2' multiply defined.
+LaTeX Warning: Label `lst:obsv' multiply defined.
+
+
+LaTeX Warning: Label `lst:obs_result' multiply defined.
+
+
+LaTeX Warning: Label `fig:estados' multiply defined.
 
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
+LaTeX Font Info:    ... okay on input line 55.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count375
-\scratchdimen=\dimen285
+\scratchcounter=\count378
+\scratchdimen=\dimen286
 \scratchbox=\box118
-\nofMPsegments=\count376
-\nofMParguments=\count377
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count378
-\MPscratchDim=\dimen286
-\MPnumerator=\count379
-\makeMPintoPDFobject=\count380
-\everyMPtoPDFconversion=\toks45
+\nofMPsegments=\count379
+\nofMParguments=\count380
+\everyMPshowfont=\toks45
+\MPscratchCnt=\count381
+\MPscratchDim=\dimen287
+\MPnumerator=\count382
+\makeMPintoPDFobject=\count383
+\everyMPtoPDFconversion=\toks46
 ) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 55.
  (main.out) (main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
@@ -692,370 +799,129 @@ Package hyperref Info: Link coloring ON on input line 20.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count381
+\c@lstlisting=\count384
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-(main.glsdefs) (title.tex
-<img/logo.png, id=67, 321.2pt x 132.495pt>
-File: img/logo.png Graphic file (type png)
-<use img/logo.png>
-Package pdftex.def Info: img/logo.png  used on input line 13.
-(pdftex.def)             Requested size: 173.44534pt x 71.54823pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
+(main.glsdefs)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 83.
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 83.
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 83.
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 83.
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 83.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 83.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 89.
+ (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 93.
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 106.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 113.
+See the caption package documentation for explanation.
+
+<img/Estados e erro_1.pdf, id=3, 664.4825pt x 429.605pt>
+File: img/Estados e erro_1.pdf Graphic file (type pdf)
+<use img/Estados e erro_1.pdf>
+Package pdftex.def Info: img/Estados e erro_1.pdf  used on input line 124.
+(pdftex.def)             Requested size: 208.13574pt x 134.56587pt.
+<img/Medicao e inovacao_1.pdf, id=4, 675.52374pt x 431.6125pt>
+File: img/Medicao e inovacao_1.pdf Graphic file (type pdf)
+<use img/Medicao e inovacao_1.pdf>
+Package pdftex.def Info: img/Medicao e inovacao_1.pdf  used on input line 130.
+(pdftex.def)             Requested size: 208.13574pt x 132.98184pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 160.
+See the caption package documentation for explanation.
+
+<img/logo.png, id=5, 321.2pt x 132.495pt>
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png  used on input line 165.
+(pdftex.def)             Requested size: 55.1767pt x 22.76228pt.
+[1{C:/Users/Geral/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
 \openout4 = `main.ist'.
 
-{C:/Users/Geral/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/logo.png>]) (sec/acronyms.tex
-\@gls@deffile=\write8
-\openout8 = `main.glsdefs'.
+{C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./img/logo.png> <./img/Estados e erro_1.pdf> <./img/Medicao e inovacao_1.pdf>]
 
-) (main.toc)
-\tf@toc=\write9
-\openout9 = `main.toc'.
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 185.
+See the caption package documentation for explanation.
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.32 \newpage
-              [1
-
-] (main.lof
-Overfull \hbox (9.0124pt too wide) in paragraph at lines 3--3
- \T1/cmr/m/n/12 vis„o do robot ou ser cal-cu-lado se as co-or-de-nadas do alvo, (X$[]$,Y$[]$), 
+<img/Estados e erro_3.pdf, id=63, 667.49374pt x 429.605pt>
+File: img/Estados e erro_3.pdf Graphic file (type pdf)
+<use img/Estados e erro_3.pdf>
+Package pdftex.def Info: img/Estados e erro_3.pdf  used on input line 208.
+(pdftex.def)             Requested size: 195.12767pt x 125.5852pt.
+<img/Medicao e inovacao_3.pdf, id=64, 675.52374pt x 431.6125pt>
+File: img/Medicao e inovacao_3.pdf Graphic file (type pdf)
+<use img/Medicao e inovacao_3.pdf>
+Package pdftex.def Info: img/Medicao e inovacao_3.pdf  used on input line 214.
+(pdftex.def)             Requested size: 195.12767pt x 124.67047pt.
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png  used on input line 228.
+(pdftex.def)             Requested size: 55.1767pt x 22.76228pt.
+[2 <./img/Estados e erro_3.pdf> <./img/Medicao e inovacao_3.pdf>]
+Overfull \hbox (37.33972pt too wide) in paragraph at lines 242--248
+ [][] 
  []
 
-)
-\tf@lof=\write10
-\openout10 = `main.lof'.
+<img/simul.png, id=123, 611.28375pt x 294.34969pt>
+File: img/simul.png Graphic file (type png)
+<use img/simul.png>
+Package pdftex.def Info: img/simul.png  used on input line 265.
+(pdftex.def)             Requested size: 195.12767pt x 93.95576pt.
 
- [2
-
-] (tex/Chap/1-Intro/INTRO.tex
-Cap√≠tulo 1.
-(tex/Chap/1-Intro/resumo.tex) (tex/Chap/1-Intro/enq-e-obj.tex [1
-
-
-])) (tex/Chap/2-Fund-Teor/fund-teor.tex [2]
-Cap√≠tulo 2.
-[3
-
-]
-<./img/eq-1.1.png, id=173, 175.25475pt x 36.73724pt>
-File: ./img/eq-1.1.png Graphic file (type png)
-<use ./img/eq-1.1.png>
-Package pdftex.def Info: ./img/eq-1.1.png  used on input line 34.
-(pdftex.def)             Requested size: 130.08733pt x 27.26976pt.
-<./img/eq-1.2.png, id=174, 248.127pt x 31.317pt>
-File: ./img/eq-1.2.png Graphic file (type png)
-<use ./img/eq-1.2.png>
-Package pdftex.def Info: ./img/eq-1.2.png  used on input line 43.
-(pdftex.def)             Requested size: 216.81pt x 27.36406pt.
-<./img/eq-1.3.png, id=175, 108.405pt x 42.1575pt>
-File: ./img/eq-1.3.png Graphic file (type png)
-<use ./img/eq-1.3.png>
-Package pdftex.def Info: ./img/eq-1.3.png  used on input line 52.
-(pdftex.def)             Requested size: 86.72267pt x 33.72731pt.
-<./img/obs-e-target.png, id=176, 321.6015pt x 161.403pt>
-File: ./img/obs-e-target.png Graphic file (type png)
-<use ./img/obs-e-target.png>
-Package pdftex.def Info: ./img/obs-e-target.png  used on input line 59.
-(pdftex.def)             Requested size: 303.53267pt x 152.337pt.
- [4 <./img/eq-1.1.png> <./img/eq-1.2.png> <./img/eq-1.3.png> <./img/obs-e-target.png>]
-<./img/eq-1.4.png, id=190, 83.1105pt x 33.12375pt>
-File: ./img/eq-1.4.png Graphic file (type png)
-<use ./img/eq-1.4.png>
-Package pdftex.def Info: ./img/eq-1.4.png  used on input line 74.
-(pdftex.def)             Requested size: 65.04034pt x 25.92183pt.
-<./img/eq-1.5.png, id=191, 78.2925pt x 37.94176pt>
-File: ./img/eq-1.5.png Graphic file (type png)
-<use ./img/eq-1.5.png>
-Package pdftex.def Info: ./img/eq-1.5.png  used on input line 83.
-(pdftex.def)             Requested size: 65.04034pt x 31.52058pt.
-<./img/ex-energia.png, id=192, 193.32225pt x 144.54pt>
-File: ./img/ex-energia.png Graphic file (type png)
-<use ./img/ex-energia.png>
-Package pdftex.def Info: ./img/ex-energia.png  used on input line 90.
-(pdftex.def)             Requested size: 173.44534pt x 129.68338pt.
-<./img/eq-1.6-1.png, id=193, 91.542pt x 30.1125pt>
-File: ./img/eq-1.6-1.png Graphic file (type png)
-<use ./img/eq-1.6-1.png>
-Package pdftex.def Info: ./img/eq-1.6-1.png  used on input line 99.
-(pdftex.def)             Requested size: 86.72267pt x 28.52766pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ./img/eq-1.6-1.png Graphic file (type png)
-<use ./img/eq-1.6-1.png>
-Package pdftex.def Info: ./img/eq-1.6-1.png  used on input line 108.
-(pdftex.def)             Requested size: 86.72267pt x 28.52766pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./img/eq-1.7.png, id=194, 210.18526pt x 56.6115pt>
-File: ./img/eq-1.7.png Graphic file (type png)
-<use ./img/eq-1.7.png>
-Package pdftex.def Info: ./img/eq-1.7.png  used on input line 117.
-(pdftex.def)             Requested size: 195.12767pt x 52.55829pt.
-[5 <./img/eq-1.4.png> <./img/eq-1.5.png> <./img/ex-energia.png>]
-<./img/eq-1.8.png, id=205, 250.536pt x 42.75975pt>
-File: ./img/eq-1.8.png Graphic file (type png)
-<use ./img/eq-1.8.png>
-Package pdftex.def Info: ./img/eq-1.8.png  used on input line 128.
-(pdftex.def)             Requested size: 216.81pt x 37.00362pt.
-<./img/eq-1.9.png, id=206, 218.0145pt x 40.35075pt>
-File: ./img/eq-1.9.png Graphic file (type png)
-<use ./img/eq-1.9.png>
-Package pdftex.def Info: ./img/eq-1.9.png  used on input line 137.
-(pdftex.def)             Requested size: 195.12767pt x 36.11707pt.
-<./img/eq-1.10.png, id=207, 155.3805pt x 35.53275pt>
-File: ./img/eq-1.10.png Graphic file (type png)
-<use ./img/eq-1.10.png>
-Package pdftex.def Info: ./img/eq-1.10.png  used on input line 146.
-(pdftex.def)             Requested size: 151.76964pt x 34.70796pt.
-<./img/1.11.png, id=208, 104.18925pt x 51.19125pt>
-File: ./img/1.11.png Graphic file (type png)
-<use ./img/1.11.png>
-Package pdftex.def Info: ./img/1.11.png  used on input line 157.
-(pdftex.def)             Requested size: 108.405pt x 53.26262pt.
- [6 <./img/eq-1.6-1.png> <./img/eq-1.7.png> <./img/eq-1.8.png> <./img/eq-1.9.png> <./img/eq-1.10.png>]
-<./img/estabilidade.png, id=224, 340.27126pt x 99.9735pt>
-File: ./img/estabilidade.png Graphic file (type png)
-<use ./img/estabilidade.png>
-Package pdftex.def Info: ./img/estabilidade.png  used on input line 165.
-(pdftex.def)             Requested size: 281.85036pt x 82.81322pt.
-<./img/eq-1.11.png, id=225, 231.264pt x 40.953pt>
-File: ./img/eq-1.11.png Graphic file (type png)
-<use ./img/eq-1.11.png>
-Package pdftex.def Info: ./img/eq-1.11.png  used on input line 184.
-(pdftex.def)             Requested size: 216.81pt x 38.39519pt.
-<./img/estabilidade-2.png, id=226, 327.02174pt x 52.39575pt>
-File: ./img/estabilidade-2.png Graphic file (type png)
-<use ./img/estabilidade-2.png>
-Package pdftex.def Info: ./img/estabilidade-2.png  used on input line 198.
-(pdftex.def)             Requested size: 260.17465pt x 41.68799pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./img/sensores.png, id=228, 238.491pt x 133.6995pt>
-File: ./img/sensores.png Graphic file (type png)
-<use ./img/sensores.png>
-Package pdftex.def Info: ./img/sensores.png  used on input line 207.
-(pdftex.def)             Requested size: 216.81pt x 121.54636pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./img/eq-2.1.png, id=229, 287.27325pt x 34.9305pt>
-File: ./img/eq-2.1.png Graphic file (type png)
-<use ./img/eq-2.1.png>
-Package pdftex.def Info: ./img/eq-2.1.png  used on input line 216.
-(pdftex.def)             Requested size: 260.17465pt x 31.63754pt.
-[7 <./img/1.11.png> <./img/estabilidade.png> <./img/eq-1.11.png>]
-<./img/eq-2.2.png, id=242, 223.43475pt x 46.9755pt>
-File: ./img/eq-2.2.png Graphic file (type png)
-<use ./img/eq-2.2.png>
-Package pdftex.def Info: ./img/eq-2.2.png  used on input line 225.
-(pdftex.def)             Requested size: 216.81pt x 45.5848pt.
-<./img/eq-2.3.png, id=243, 184.89075pt x 34.9305pt>
-File: ./img/eq-2.3.png Graphic file (type png)
-<use ./img/eq-2.3.png>
-Package pdftex.def Info: ./img/eq-2.3.png  used on input line 226.
-(pdftex.def)             Requested size: 173.44534pt x 32.7707pt.
-<./img/eq-2.4.png, id=244, 107.2005pt x 34.9305pt>
-File: ./img/eq-2.4.png Graphic file (type png)
-<use ./img/eq-2.4.png>
-Package pdftex.def Info: ./img/eq-2.4.png  used on input line 241.
-(pdftex.def)             Requested size: 108.405pt x 35.32428pt.
-<./img/eq-2.5.png, id=245, 86.724pt x 31.91925pt>
-File: ./img/eq-2.5.png Graphic file (type png)
-<use ./img/eq-2.5.png>
-Package pdftex.def Info: ./img/eq-2.5.png  used on input line 242.
-(pdftex.def)             Requested size: 108.405pt x 39.9009pt.
- [8 <./img/estabilidade-2.png> <./img/sensores.png> <./img/eq-2.1.png> <./img/eq-2.2.png> <./img/eq-2.3.png> <./img/eq-2.4.png> <./img/eq-2.5.png>]
-<./img/estabilidade-3.png, id=261, 317.988pt x 51.7935pt>
-File: ./img/estabilidade-3.png Graphic file (type png)
-<use ./img/estabilidade-3.png>
-Package pdftex.def Info: ./img/estabilidade-3.png  used on input line 265.
-(pdftex.def)             Requested size: 303.53267pt x 49.4414pt.
-<./img/lambda-obs.png, id=262, 90.93974pt x 31.317pt>
-File: ./img/lambda-obs.png Graphic file (type png)
-<use ./img/lambda-obs.png>
-Package pdftex.def Info: ./img/lambda-obs.png  used on input line 280.
-(pdftex.def)             Requested size: 108.405pt x 37.33218pt.
-<./img/beta-1.png, id=263, 77.69025pt x 43.362pt>
-File: ./img/beta-1.png Graphic file (type png)
-<use ./img/beta-1.png>
-Package pdftex.def Info: ./img/beta-1.png  used on input line 288.
-(pdftex.def)             Requested size: 108.405pt x 60.50653pt.
-<./img/di.png, id=264, 136.1085pt x 25.2945pt>
-File: ./img/di.png Graphic file (type png)
-<use ./img/di.png>
-Package pdftex.def Info: ./img/di.png  used on input line 296.
-(pdftex.def)             Requested size: 173.44534pt x 32.23633pt.
-<./img/beta-1-2.png, id=265, 158.994pt x 42.75975pt>
-File: ./img/beta-1-2.png Graphic file (type png)
-<use ./img/beta-1-2.png>
-Package pdftex.def Info: ./img/beta-1-2.png  used on input line 304.
-(pdftex.def)             Requested size: 173.44534pt x 46.64894pt.
- [9 <./img/estabilidade-3.png> <./img/lambda-obs.png> <./img/beta-1.png> <./img/di.png> <./img/beta-1-2.png>]) (tex/Chap/3-Desenvolvimento/DESEN.tex [10]
-Cap√≠tulo 3.
-(tex/Chap/3-Desenvolvimento/auto-desc.tex
-<./img/base.png, id=286, 561.297pt x 225.2415pt>
-File: ./img/base.png Graphic file (type png)
-<use ./img/base.png>
-Package pdftex.def Info: ./img/base.png  used on input line 11.
-(pdftex.def)             Requested size: 303.53267pt x 121.80386pt.
-<./img/prateleira.png, id=288, 555.87675pt x 234.27525pt>
-File: ./img/prateleira.png Graphic file (type png)
-<use ./img/prateleira.png>
-Package pdftex.def Info: ./img/prateleira.png  used on input line 20.
-(pdftex.def)             Requested size: 281.85036pt x 118.7853pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./img/tampa.png, id=290, 549.85425pt x 242.1045pt>
-File: ./img/tampa.png Graphic file (type png)
-<use ./img/tampa.png>
-Package pdftex.def Info: ./img/tampa.png  used on input line 29.
-(pdftex.def)             Requested size: 281.85036pt x 124.09967pt.
-[11
-
- <./img/base.png>]
-<./img/suportes.png, id=298, 434.22224pt x 231.264pt>
-File: ./img/suportes.png Graphic file (type png)
-<use ./img/suportes.png>
-Package pdftex.def Info: ./img/suportes.png  used on input line 38.
-(pdftex.def)             Requested size: 260.17465pt x 138.56538pt.
-<./img/sensores-2.png, id=300, 475.17525pt x 228.855pt>
-File: ./img/sensores-2.png Graphic file (type png)
-<use ./img/sensores-2.png>
-Package pdftex.def Info: ./img/sensores-2.png  used on input line 47.
-(pdftex.def)             Requested size: 260.17465pt x 125.30841pt.
- [12 <./img/prateleira.png> <./img/tampa.png> <./img/suportes.png>]
-<./img/bateria.png, id=309, 560.69475pt x 225.2415pt>
-File: ./img/bateria.png Graphic file (type png)
-<use ./img/bateria.png>
-Package pdftex.def Info: ./img/bateria.png  used on input line 56.
-(pdftex.def)             Requested size: 346.89732pt x 139.35614pt.
-<./img/motor.png, id=311, 466.74374pt x 230.66174pt>
-File: ./img/motor.png Graphic file (type png)
-<use ./img/motor.png>
-Package pdftex.def Info: ./img/motor.png  used on input line 65.
-(pdftex.def)             Requested size: 260.17465pt x 128.58191pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./img/roda-motriz.png, id=314, 558.888pt x 234.27525pt>
-File: ./img/roda-motriz.png Graphic file (type png)
-<use ./img/roda-motriz.png>
-Package pdftex.def Info: ./img/roda-motriz.png  used on input line 74.
-(pdftex.def)             Requested size: 260.17465pt x 109.06198pt.
-<./img/roda-gira.png, id=315, 521.5485pt x 298.716pt>
-File: ./img/roda-gira.png Graphic file (type png)
-<use ./img/roda-gira.png>
-Package pdftex.def Info: ./img/roda-gira.png  used on input line 81.
-(pdftex.def)             Requested size: 260.17465pt x 149.01576pt.
-[13 <./img/sensores-2.png> <./img/bateria.png>] [14 <./img/motor.png> <./img/roda-motriz.png> <./img/roda-gira.png>]
-<./img/robo-total.png, id=330, 554.07pt x 241.50224pt>
-File: ./img/robo-total.png Graphic file (type png)
-<use ./img/robo-total.png>
-Package pdftex.def Info: ./img/robo-total.png  used on input line 90.
-(pdftex.def)             Requested size: 303.53267pt x 132.29967pt.
- [15
-
- <./img/robo-total.png>]) (tex/Chap/3-Desenvolvimento/coppelia.tex
-<./img/sens-prop.png, id=337, 361.95226pt x 167.4255pt>
-File: ./img/sens-prop.png Graphic file (type png)
-<use ./img/sens-prop.png>
-Package pdftex.def Info: ./img/sens-prop.png  used on input line 12.
-(pdftex.def)             Requested size: 346.89732pt x 160.46606pt.
-<./img/motor-prop.png, id=338, 313.77225pt x 127.07475pt>
-File: ./img/motor-prop.png Graphic file (type png)
-<use ./img/motor-prop.png>
-Package pdftex.def Info: ./img/motor-prop.png  used on input line 20.
-(pdftex.def)             Requested size: 260.17465pt x 105.37506pt.
-<./img/fisica-rodas.png, id=339, 316.7835pt x 290.88675pt>
-File: ./img/fisica-rodas.png Graphic file (type png)
-<use ./img/fisica-rodas.png>
-Package pdftex.def Info: ./img/fisica-rodas.png  used on input line 28.
-(pdftex.def)             Requested size: 260.17465pt x 238.90594pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./img/robo-copp.png, id=340, 298.11375pt x 158.994pt>
-File: ./img/robo-copp.png Graphic file (type png)
-<use ./img/robo-copp.png>
-Package pdftex.def Info: ./img/robo-copp.png  used on input line 37.
-(pdftex.def)             Requested size: 303.53267pt x 161.89273pt.
-[16
-
- <./img/sens-prop.png> <./img/motor-prop.png>]
-<./img/robo-copp-tot.png, id=348, 310.15875pt x 222.8325pt>
-File: ./img/robo-copp-tot.png Graphic file (type png)
-<use ./img/robo-copp-tot.png>
-Package pdftex.def Info: ./img/robo-copp-tot.png  used on input line 45.
-(pdftex.def)             Requested size: 303.53267pt x 218.07175pt.
-) (tex/Chap/3-Desenvolvimento/matlab.tex [17 <./img/fisica-rodas.png> <./img/robo-copp.png>] [18 <./img/robo-copp-tot.png>] (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2025/11/14 1.11b listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 14.
- (listing/RobDyn_robot.m) (listing/RobDyn_robot2.m) (listing/program_dyn_EB_tar_obs.m) (listing/program_dyn_EB_tar_obs.m [19
-
-]) [20])) (tex/Chap/4-Resultados/RES.tex
-Cap√≠tulo 4.
-(tex/Chap/4-Resultados/resultados.tex
-<./img/trajetoria.png, id=486, 544.434pt x 265.59225pt>
-File: ./img/trajetoria.png Graphic file (type png)
-<use ./img/trajetoria.png>
-Package pdftex.def Info: ./img/trajetoria.png  used on input line 9.
-(pdftex.def)             Requested size: 390.25536pt x 190.38736pt.
- [21
-
- <./img/trajetoria.png>]
-<./img/trajetoria-2.png, id=492, 540.8205pt x 293.29575pt>
-File: ./img/trajetoria-2.png Graphic file (type png)
-<use ./img/trajetoria-2.png>
-Package pdftex.def Info: ./img/trajetoria-2.png  used on input line 22.
-(pdftex.def)             Requested size: 390.25536pt x 211.64267pt.
-) (tex/Chap/4-Resultados/discussao.tex [22 <./img/trajetoria-2.png>]
-<./img/conc.png, id=499, 467.346pt x 36.73724pt>
-File: ./img/conc.png Graphic file (type png)
-<use ./img/conc.png>
-Package pdftex.def Info: ./img/conc.png  used on input line 16.
-(pdftex.def)             Requested size: 303.53267pt x 23.85985pt.
- [23 <./img/conc.png>])) (tex/Chap/5-Conclusao/CONC.tex [24]
-Cap√≠tulo 5.
-
-Overfull \hbox (18.63208pt too wide) in paragraph at lines 4--5
-\T1/cmr/m/n/12 AtravÈs da re-al-iza-Á„o deste pro-jeto no ‚m-bito da Unidade Cur-ric-u-lar Sis-temas AutÛnomos
+Overfull \hbox (36.39978pt too wide) detected at line 276
+\OML/lmm/m/it/12 e[] \OT1/lmr/m/n/12 = (\OML/lmm/m/it/12 A[] \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 LC[]\OT1/lmr/m/n/12 )\OML/lmm/m/it/12 e[] \OT1/lmr/m/n/12 + (\OML/lmm/m/it/12 A[] \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 A[]\OT1/lmr/m/n/12 )\OML/lmm/m/it/12 x[] \OT1/lmr/m/n/12 + (\OML/lmm/m/it/12 B[] \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 B[]\OT1/lmr/m/n/12 )\OML/lmm/m/it/12 u[]
  []
 
-) (tex/Chap/6-Bibliografia/BIB.tex [25
-
-]
-Cap√≠tulo 6.
-)
-
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
-
-[26
-
-] (main.aux)
+<img/Medicao e inovacao_5.pdf, id=124, 675.52374pt x 431.6125pt>
+File: img/Medicao e inovacao_5.pdf Graphic file (type pdf)
+<use img/Medicao e inovacao_5.pdf>
+Package pdftex.def Info: img/Medicao e inovacao_5.pdf  used on input line 285.
+(pdftex.def)             Requested size: 195.12767pt x 124.67047pt.
+No file main.gls.
+No file main.acr.
+File: img/logo.png Graphic file (type png)
+<use img/logo.png>
+Package pdftex.def Info: img/logo.png  used on input line 306.
+(pdftex.def)             Requested size: 55.1767pt x 22.76228pt.
+[3 <./img/simul.png> <./img/Medicao e inovacao_5.pdf>] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1065,20 +931,20 @@ L3 programming layer <2025-12-24>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8747C14630117D3C1F9FA564ED0384CB;3072.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24154 strings out of 467871
- 437748 string characters out of 5418376
- 1389092 words of memory out of 5000000
- 52453 multiletter control sequences out of 15000+600000
- 645083 words of font info for 83 fonts, out of 8000000 for 9000
+ 24920 strings out of 467871
+ 449726 string characters out of 5418376
+ 1233087 words of memory out of 5000000
+ 53399 multiletter control sequences out of 15000+600000
+ 654083 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,8n,98p,2576b,2220s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0800.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2074.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\Geral\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (29 pages, 1867694 bytes).
+ 90i,16n,97p,2559b,1833s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
+Output written on main.pdf (3 pages, 976993 bytes).
 PDF statistics:
- 1068 PDF objects out of 1200 (max. 8388607)
- 209 named destinations out of 1000 (max. 500000)
- 359 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 211 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

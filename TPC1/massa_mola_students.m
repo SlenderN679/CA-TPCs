@@ -33,8 +33,9 @@ u=2*sin(2*pi*0.3*t);
 %% BLOCO 1: observabilidade (modelo continuo).
 % TODO 1: construir O e verificar se rank(O)==2.
 
-O=obsv(A, C); 
-if rank(O) == n;
+O = obsv(A, C) 
+r = rank(O)
+if r == n;
     fprintf('O sistema é observável\n')
 else
     fprintf('O sistema não é observável\n');
@@ -45,7 +46,8 @@ end
 
 pd=exp(cfg.poles*cfg.Ts)
 L=place(Ad',Cd',pd)'
-if eig(Ad-L*Cd) == pd
+ei = eig(Ad-L*Cd)
+if abs(sort(ei') - sort(pd)) < 1e-10
     fprintf('Os pólos coincidem\n')
 else
     fprintf('Os pólos não coincidem\n')
