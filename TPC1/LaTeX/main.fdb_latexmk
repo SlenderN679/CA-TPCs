@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1794359628.01867 "c:/Users/Geral/Documents/1-Mestrado/CA/Modulo2/CA-TPCs/TPC1/LaTeX/main.tex" "main.pdf" "main" 1794359629.35139 0
+["pdflatex"] 1794409557.46962 "c:/Users/Geral/Documents/1-Mestrado/CA/Modulo2/CA-TPCs/TPC1/LaTeX/main.tex" "main.pdf" "main" 1794409558.81722 0
   "C:/Users/Geral/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1794358837 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Geral/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1793917765 13333487 715382355df889e3429faace046942cc ""
   "C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -155,7 +155,7 @@
   "C:/Users/Geral/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/Geral/AppData/Local/Programs/MiKTeX/tex/latex/xfor/xfor.sty" 1233849756 2689 44855b72da58344b1c1d9b3087bce6ca ""
   "C:/Users/Geral/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/Geral/Documents/1-Mestrado/CA/Modulo2/CA-TPCs/TPC1/LaTeX/main.tex" 1794359626 9502 f810cd6da3e8d4e71f48a8148a766f70 ""
+  "c:/Users/Geral/Documents/1-Mestrado/CA/Modulo2/CA-TPCs/TPC1/LaTeX/main.tex" 1794409556 9679 cb6a645db2d2033a6fc6b049981e2a75 ""
   "img/Estados e erro_1.pdf" 1794316875 66789 d8dbfaee740431f7d1f460ad5fbe9f4c ""
   "img/Estados e erro_3.pdf" 1794319770 66862 538fdb2d2ef377dbe0d5ccf59304b4ba ""
   "img/Medicao e inovacao_1.pdf" 1794316853 193409 0be0a763f1f53b216bc4e95bd7ad28d9 ""
@@ -164,11 +164,11 @@
   "img/logo.png" 1793917627 18032 48df65f2ce19aac733ea3e14a044fb67 ""
   "img/simul.png" 1794356794 16404 c9a9c52bf353947a51fe2ac0395a2a5f ""
   "main.acr" 0 -1 0 ""
-  "main.aux" 1794359629 3968 6ab01195817ad36f47748950421ccba8 "pdflatex"
+  "main.aux" 1794409558 3968 6ab01195817ad36f47748950421ccba8 "pdflatex"
   "main.gls" 0 -1 0 ""
   "main.glsdefs" 1794308923 1120 5806c87e1f14fa9f5f9148788e90f68e ""
-  "main.out" 1794359628 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1794359626 9502 f810cd6da3e8d4e71f48a8148a766f70 ""
+  "main.out" 1794409558 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1794409556 9679 cb6a645db2d2033a6fc6b049981e2a75 ""
   "sty/dissert.sty" 1793917627 1992 00359c77547a4e0804bff6da50022478 ""
   "sty/listing.sty" 1793917627 941 d5cbbd906b895dbc94e5342887349feb ""
   (generated)
