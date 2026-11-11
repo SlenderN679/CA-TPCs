@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.5)  11 NOV 2026 15:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.11.5)  11 NOV 2026 15:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -471,7 +471,9 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count343
 ) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/notoccite\notoccite.sty
 Package: notoccite 2000/07/20
-) (sty/listing.sty)) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
+) (sty/listing.sty)
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 71.
+) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
 Package: glossaries 2026/04/21 v5.1 (NLCT)
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
@@ -681,17 +683,18 @@ Package babel Info: Importing font and identification data for portuguese
 Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
 Package babel Info: Making " an active character on input line 132.
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 47.
+Package hyperref Info: Option `colorlinks' set `true' on input line 50.
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 50.
 \glswrite=\write4
 \glo@main@file=\write5
 \openout5 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 53.
+Package glossaries Info: Writing glossary file main.glo on input line 56.
 \glo@acronym@file=\write6
 \openout6 = `main.acn'.
 
-Package glossaries Info: Writing glossary file main.acn on input line 53.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 55.
+Package glossaries Info: Writing glossary file main.acn on input line 56.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 58.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -716,24 +719,24 @@ LaTeX Warning: Label `fig:estados' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count378
@@ -759,7 +762,7 @@ Package grfext Info: Graphics extension search list:
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 55.
+Package hyperref Info: Link coloring ON on input line 58.
  (main.out) (main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
@@ -804,70 +807,70 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 (main.glsdefs)
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 83.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 86.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 83.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 86.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 83.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 86.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 83.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 86.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 83.
+(Font)              <12> on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 83.
+(Font)              <8> on input line 86.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 83.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+(Font)              <6> on input line 86.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 89.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 92.
  (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\Geral\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 93.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 96.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <8> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 106.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 109.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 113.
+(caption)                particular \caption on input line 116.
 See the caption package documentation for explanation.
 
 <img/Estados e erro_1.pdf, id=3, 664.4825pt x 429.605pt>
 File: img/Estados e erro_1.pdf Graphic file (type pdf)
 <use img/Estados e erro_1.pdf>
-Package pdftex.def Info: img/Estados e erro_1.pdf  used on input line 124.
+Package pdftex.def Info: img/Estados e erro_1.pdf  used on input line 127.
 (pdftex.def)             Requested size: 208.13574pt x 134.56587pt.
 <img/Medicao e inovacao_1.pdf, id=4, 675.52374pt x 431.6125pt>
 File: img/Medicao e inovacao_1.pdf Graphic file (type pdf)
 <use img/Medicao e inovacao_1.pdf>
-Package pdftex.def Info: img/Medicao e inovacao_1.pdf  used on input line 130.
+Package pdftex.def Info: img/Medicao e inovacao_1.pdf  used on input line 133.
 (pdftex.def)             Requested size: 208.13574pt x 132.98184pt.
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 160.
+(caption)                particular \caption on input line 163.
 See the caption package documentation for explanation.
 
 <img/logo.png, id=5, 321.2pt x 132.495pt>
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png  used on input line 165.
+Package pdftex.def Info: img/logo.png  used on input line 168.
 (pdftex.def)             Requested size: 55.1767pt x 22.76228pt.
 [1{C:/Users/Geral/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}
 
@@ -876,48 +879,48 @@ Package pdftex.def Info: img/logo.png  used on input line 165.
 {C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./img/logo.png> <./img/Estados e erro_1.pdf> <./img/Medicao e inovacao_1.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 185.
+(caption)                particular \caption on input line 188.
 See the caption package documentation for explanation.
 
 <img/Estados e erro_3.pdf, id=63, 667.49374pt x 429.605pt>
 File: img/Estados e erro_3.pdf Graphic file (type pdf)
 <use img/Estados e erro_3.pdf>
-Package pdftex.def Info: img/Estados e erro_3.pdf  used on input line 208.
+Package pdftex.def Info: img/Estados e erro_3.pdf  used on input line 211.
 (pdftex.def)             Requested size: 195.12767pt x 125.5852pt.
 <img/Medicao e inovacao_3.pdf, id=64, 675.52374pt x 431.6125pt>
 File: img/Medicao e inovacao_3.pdf Graphic file (type pdf)
 <use img/Medicao e inovacao_3.pdf>
-Package pdftex.def Info: img/Medicao e inovacao_3.pdf  used on input line 214.
+Package pdftex.def Info: img/Medicao e inovacao_3.pdf  used on input line 217.
 (pdftex.def)             Requested size: 195.12767pt x 124.67047pt.
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png  used on input line 227.
+Package pdftex.def Info: img/logo.png  used on input line 230.
 (pdftex.def)             Requested size: 55.1767pt x 22.76228pt.
 [2 <./img/Estados e erro_3.pdf> <./img/Medicao e inovacao_3.pdf>]
-Overfull \hbox (37.33972pt too wide) in paragraph at lines 244--250
+Overfull \hbox (37.33972pt too wide) in paragraph at lines 247--253
  [][] 
  []
 
 <img/simul.png, id=123, 611.28375pt x 294.34969pt>
 File: img/simul.png Graphic file (type png)
 <use img/simul.png>
-Package pdftex.def Info: img/simul.png  used on input line 267.
+Package pdftex.def Info: img/simul.png  used on input line 270.
 (pdftex.def)             Requested size: 195.12767pt x 93.95576pt.
 
-Overfull \hbox (36.39978pt too wide) detected at line 278
+Overfull \hbox (36.39978pt too wide) detected at line 281
 \OML/lmm/m/it/12 e[] \OT1/lmr/m/n/12 = (\OML/lmm/m/it/12 A[] \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 LC[]\OT1/lmr/m/n/12 )\OML/lmm/m/it/12 e[] \OT1/lmr/m/n/12 + (\OML/lmm/m/it/12 A[] \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 A[]\OT1/lmr/m/n/12 )\OML/lmm/m/it/12 x[] \OT1/lmr/m/n/12 + (\OML/lmm/m/it/12 B[] \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 B[]\OT1/lmr/m/n/12 )\OML/lmm/m/it/12 u[]
  []
 
 <img/Medicao e inovacao_5.pdf, id=124, 675.52374pt x 431.6125pt>
 File: img/Medicao e inovacao_5.pdf Graphic file (type pdf)
 <use img/Medicao e inovacao_5.pdf>
-Package pdftex.def Info: img/Medicao e inovacao_5.pdf  used on input line 287.
+Package pdftex.def Info: img/Medicao e inovacao_5.pdf  used on input line 290.
 (pdftex.def)             Requested size: 195.12767pt x 124.67047pt.
 No file main.gls.
 No file main.acr.
 File: img/logo.png Graphic file (type png)
 <use img/logo.png>
-Package pdftex.def Info: img/logo.png  used on input line 308.
+Package pdftex.def Info: img/logo.png  used on input line 311.
 (pdftex.def)             Requested size: 55.1767pt x 22.76228pt.
 [3 <./img/simul.png> <./img/Medicao e inovacao_5.pdf>] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
@@ -935,14 +938,14 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  24920 strings out of 467871
- 449726 string characters out of 5418376
- 1233087 words of memory out of 5000000
+ 449739 string characters out of 5418376
+ 1233506 words of memory out of 5000000
  53399 multiletter control sequences out of 15000+600000
  654083 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  90i,16n,97p,2559b,1833s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/Geral/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb>
-Output written on main.pdf (3 pages, 980496 bytes).
+Output written on main.pdf (3 pages, 980782 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  51 named destinations out of 1000 (max. 500000)
