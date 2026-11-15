@@ -1,0 +1,529 @@
+\documentclass[12pt]{report}
+\usepackage{./sty/dissert}% style
+\usepackage{comment}
+\usepackage{hyperref}
+\usepackage[acronym]{glossaries}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{listings}
+\usepackage{caption}
+\usepackage{lmodern}
+\usepackage[portuguese]{babel}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage{tabularx}
+
+\lstdefinestyle{codigo}{
+    basicstyle=\ttfamily\scriptsize,      
+    columns=fullflexible,                 
+    keepspaces=true,                      
+    keywordstyle=\color{blue!70!black}\bfseries,
+    commentstyle=\color{green!45!black}\itshape,
+    stringstyle=\color{red!65!black},
+    numbers=left, numberstyle=\tiny\color{gray}, numbersep=4pt,                        
+    frame=single,
+    framesep=2pt,                         
+    aboveskip=4pt, belowskip=2pt,         
+    xleftmargin=2pt, xrightmargin=2pt,    
+    rulecolor=\color{gray!40},
+    backgroundcolor=\color{gray!6},
+    breaklines=true,
+    showstringspaces=false,
+    tabsize=2,                            
+    captionpos=b,
+    inputencoding=utf8,
+    extendedchars=true,
+    literate=
+        {á}{{\'a}}1 {à}{{\`a}}1 {â}{{\^a}}1 {ã}{{\~a}}1
+        {é}{{\'e}}1 {ê}{{\^e}}1
+        {í}{{\'i}}1
+        {ó}{{\'o}}1 {ô}{{\^o}}1 {õ}{{\~o}}1
+        {ú}{{\'u}}1 {ü}{{\"u}}1
+        {ç}{{\c{c}}}1
+        {Á}{{\'A}}1 {À}{{\`A}}1 {Â}{{\^A}}1 {Ã}{{\~A}}1
+        {É}{{\'E}}1 {Ê}{{\^E}}1
+        {Í}{{\'I}}1
+        {Ó}{{\'O}}1 {Ô}{{\^O}}1 {Õ}{{\~O}}1
+        {Ú}{{\'U}}1
+        {Ç}{{\c{C}}}1
+        {º}{{\textordmasculine}}1 {ª}{{\textordfeminine}}1
+        {°}{{\textdegree}}1 {€}{{\euro}}1
+}
+\lstset{style=codigo}
+\captionsetup[lstlisting]{skip=2pt}
+
+% Portuguese names
+\renewcommand{\lstlistingname}{Código}
+\renewcommand{\lstlistlistingname}{Lista de Códigos}
+\hypersetup{
+    colorlinks,
+    linkcolor={black!50!black},
+    citecolor={black!50!black},
+    urlcolor={black!80!black},
+    pdftitle={Ganhos Hands-On},
+    pdfauthor={Nuno Costa PG63901, Fábio Alves PG63877},
+    pdfdisplaydoctitle=true
+}
+\titleclass{\chapter}{straight}   % chapter no longer starts a new page
+
+\titleformat{\chapter}{\LARGE}{\thechapter.}{20pt}{\LARGE\textbf}
+\titlespacing*{\chapter}{0pt}{12pt}{10pt}   % space before / after
+\renewcommand{\figurename}{Figura}
+\titleformat*{\section}{\large\bfseries}
+%
+\makeglossaries%
+ % ------------------- Document -----------------------------------------------------
+\begin{document}
+%\onehalfspacing
+\pagenumbering{roman}
+\newcommand\tab[1][1cm]{\hspace*{#1}}
+%
+\setlength{\headheight}{28pt}   
+\pagestyle{fancy}
+\fancyhf{}                   
+
+% ---- Header ----
+\fancyhead[L]{\includegraphics[height=0.8cm]{img/logo.png}}
+\fancyhead[C]{Ganhos Hands-On}
+\fancyhead[R]{CA - MEEIC}        
+
+% ---- Footer (rodapé) ----
+\fancyfoot[L]{Nuno Costa PG63901}
+\fancyfoot[C]{Página \thepage\ de \pageref{LastPage}}
+\fancyfoot[R]{Fábio Alves PG63877}
+
+% ---- Lines ----
+\renewcommand{\headrulewidth}{0.4pt}   
+\renewcommand{\footrulewidth}{0.4pt}  
+% --------------TRABALHO------------------
+\pagenumbering{arabic}
+
+% Ex 1 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{\texttt{aula2\_ganho\_L\_students.m}}
+
+\textbf{TODO 1)} 
+
+\begin{lstlisting}[language=Matlab, caption={$L_0 = p_d-p_c$}, label={lst:Lo}]
+    Lo = pd(2:end).' - pc(2:end).';  
+\end{lstlisting}
+
+\textbf{TODO 2)} 
+
+\begin{lstlisting}[language=Matlab, caption={$T = \mathcal{O}^{-1}\mathcal{O}_0$ e $L = TL_0$}, label={lst:T}]
+    T = O^-1*Oo; 
+    L1 = T*Lo; 
+\end{lstlisting}
+
+\textbf{TODO 3)} 
+
+\begin{lstlisting}[language=Matlab, caption={[Fórmula de Ackermann]$L = p_d(A)\,\mathcal{O}^{-1}\,[0\ \cdots\ 0\ 1]^T$}, label={lst:ack}]
+    L3 = polyvalm(pd,A)*O^-1*[0; 0; 1];
+\end{lstlisting}
+
+\textbf{TODO 4)} 
+
+\begin{lstlisting}[language=Matlab, caption={Polos discretos $z=e^{pT_s}$}, label={lst:polos}]
+    pz = exp(polos*Ts);
+\end{lstlisting}
+
+\textbf{Resultados:} 
+
+\begin{lstlisting}[language=Matlab, caption={Resultados}, label={lst:results}, numbers=none]
+    >> aula2_ganho_L_students
+    eig(A) = [5.702 4.42e-16 -0.7016]
+    -> a planta tem um polo em +5.70: e INSTAVEL.
+    pd(s) coef.: [1 14 48 80]   pc(s) coef.: [1 -5 -4 1.768e-15]
+    Lo = pd - pc = [19 52 80]
+    M (Processo II) =
+        0     1     1
+        4     1    -4
+        3     0    -3
+            ProcI_canonica    ProcII_coef    ProcII_Ackermann     place      acker 
+            ______________    ___________    ________________    _______    _______
+
+        l1        100.33           100.33           100.33          100.33     100.33
+        l2       -54.667          -54.667          -54.667         -54.667    -54.667
+        l3        73.667           73.667           73.667          73.667     73.667
+    eig(A-LC) = [-2+2i -2-2i -10]
+    |e(4 s)|: malha aberta = 3.44e+08 ; observador = 0.002889
+    Discreto (Ts=0.01 s): pz = [0.904837 0.980003+0.0196027i 0.980003-0.0196027i]
+    Ld (coeficientes) = [0.91197 -0.48257 0.6694]
+    Ld (place)        = [0.91197 -0.48257 0.6694]
+    Ts*L (continuo)   = [1.0033 -0.54667 0.73667]   <- so uma aproximacao
+    |eig(Ad-Ld*Cd)|   = [0.9802 0.9802 0.90484]
+\end{lstlisting}
+
+Os valores de $L_d$ e de $T_s L$ são próximos, mas não iguais, porque a discretização do observador não é exata. A aproximação é melhor quanto menor for $T_s$.
+
+\clearpage
+
+% Ex 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{\texttt{Oservadores\_aula2\_2627.m}}
+
+\textbf{TODO 1)} 
+
+\begin{lstlisting}[language=Matlab, caption={Ganho do controlador por feedback}, label={lst:ctrl}]
+    K = acker(A,B,cfg.polosK);
+\end{lstlisting}
+
+\textbf{TODO 2)} 
+
+\begin{lstlisting}[language=Matlab, caption={Ganho do observador}, label={lst:obs}]
+    L = acker(A',C',cfg.polosL).';
+\end{lstlisting}
+
+\begin{table}[H]\centering
+\caption{Efeito dos polos do observador (controlador em $\{-2\pm j,-2,-2\}$).}
+\label{tab:polosL}
+\begin{tabular}{ccccc}\hline
+Polos $L$ & $L^T$ & $|e(8\,\text{s})|$ & $|x(8\,\text{s})|$ & $\max|u|$ [N$\cdot$m]\\\hline
+$-1$  & $[4\;\;6.05\;\;0.43\;\;1.11]$        & $0.105$             & $1.08$               & $3.01$\\
+$-2$  & $[8\;\;24.049\;\;3.302\;\;2.7318]$   & $0.000168$          & $0.0548$             & $2.82$\\
+$-5$  & $[20\;\;150.05\;\;51.068\;\;65.441]$ & $4.14\times10^{-14}$& $0.000389$           & $14.8$\\
+$-20$ & $[80\;\;2400\;\;3262\;\;16323]$      & $2.1\times10^{-17}$ & $2.0\times10^{-5}$   & $369$\\\hline
+\end{tabular}
+\end{table}
+
+\textbf{Observadores:}
+\begin{table}[H]\centering
+\caption{Efeito dos polos do observador (controlador em $\{-2\pm j,-2,-2\}$), em relação ao caso de referência ($-5$).}
+\label{tab:polosL}
+\small
+\begin{tabularx}{\textwidth}{p{2.7cm}XX}\hline
+Comparação & Observador lento ($-1$) & Observador rápido ($-20$)\\\hline
+
+Erro de estimação &
+Converge devagar; ainda $|e(8\,\text{s})|=0.105$. &
+Anula-se quase de imediato ($|e(8\,\text{s})|\approx10^{-17}$). \\[2pt]
+
+Posição máxima da bola &
+Maior: o controlador atua sobre uma estimativa errada e a bola ainda não estabilizou aos 8~s ($|x|=1.08$). &
+Semelhante à de $-5$; resposta ditada pelo controlador ($|x(8\,\text{s})|\approx2\times10^{-5}$). \\[2pt]
+
+Ângulo máximo da viga &
+Maior e mais prolongado, para corrigir o desvio da bola. &
+Picos bruscos no início, causados pelos picos de binário. \\[2pt]
+
+Binário máximo &
+Baixo: $\max|u|=3.01$~N$\cdot$m. &
+Muito elevado: $\max|u|=369$~N$\cdot$m (saturaria o atuador e amplifica o ruído). \\\hline
+\end{tabularx}
+\end{table}
+
+\textbf{Observador lento ($-1$ vs $-2$):} como os polos da malha fechada são os do controlador mais os do observador. 
+Com $-1$, os polos do observador são os mais lentos e dominam a resposta: o controlador atua durante muito tempo sobre uma estimativa errada.
+A bola afasta-se mais do centro, oscila e demora a estabilizar: aos 8~s ainda $|e|=0.105$ e $|x|=1.08$.
+
+\textbf{Observador rápido ($-20$):} o erro de estimação anula-se quase de imediato, mas o preço é um ganho $L$ enorme ($[80;\,2400;\,3262;\,16323]$).
+O erro inicial é amplificado, o que gera picos de binário de $369$~N$\cdot$m (contra $3$~N$\cdot$m com $-1$): o atuador saturaria e qualquer ruído na medida de $x$ seria fortemente amplificado. 
+
+\textbf{Animação:} com $-1$, a bola estimada (vermelho tracejado) demora a
+alcançar a real (verde), e a viga inclina-se com base nessa estimativa
+errada, por isso a bola real percorre mais a viga. Com $-20$, as duas
+coincidem quase desde o início, mas a viga faz um movimento brusco nos
+primeiros instantes, consequência dos picos de binário.
+
+%-----------------------------------
+
+\if false   
+\begin{lstlisting}[language=Matlab, caption={Resultados}, label={lst:result}, numbers=none]
+    >> Observadores_aula2_2627(struct('polosL', [-1 -1 -1 -1]))
+    Modelo linearizado em x=0, u=0:
+    A =
+            0    1.0000         0         0
+            0         0    9.8100         0
+            0         0         0    1.0000
+        0.9807         0    0.0490         0
+    B =
+            0
+            0
+            0
+    -0.4998
+    eig(A) = [-1.768 1.768 1.11e-16+1.754i 1.11e-16-1.754i]
+    K = [-6.0409 -7.342 -50.116 -16.006]
+    L = [4 6.049 0.42774 1.1128]
+    |e(8 s)| = 0.105 ; |x(8 s)| = 1.08 ; max|u| = 3.01 N.m
+    >> Observadores_aula2_2627(struct('polosL', [-20 -20 -20 -20]))
+    Modelo linearizado em x=0, u=0:
+    A =
+            0    1.0000         0         0
+            0         0    9.8100         0
+            0         0         0    1.0000
+        0.9807         0    0.0490         0
+    B =
+            0
+            0
+            0
+    -0.4998
+    eig(A) = [-1.768 1.768 1.11e-16+1.754i 1.11e-16-1.754i]
+    K = [-6.0409 -7.342 -50.116 -16.006]
+    L = [80 2400 3262.4 16323]
+    |e(8 s)| = 2.09e-17 ; |x(8 s)| = 1.98e-05 ; max|u| = 369 N.m
+    >> Observadores_aula2_2627(struct('polosL', [-5 -5 -5 -5]))
+    Modelo linearizado em x=0, u=0:
+    A =
+            0    1.0000         0         0
+            0         0    9.8100         0
+            0         0         0    1.0000
+        0.9807         0    0.0490         0
+    B =
+            0
+            0
+            0
+    -0.4998
+    eig(A) = [-1.768 1.768 1.11e-16+1.754i 1.11e-16-1.754i]
+    K = [-6.0409 -7.342 -50.116 -16.006]
+    L = [20 150.05 51.068 65.441]
+    |e(8 s)| = 4.14e-14 ; |x(8 s)| = 0.000389 ; max|u| = 14.8 N.m
+\end{lstlisting}
+\fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\if false
+\noindent
+\begin{minipage}[t]{0.40\textwidth}
+Para verificar a observabilidade calcula-se a matriz
+$\mathcal{O}$ com \lstinline{obsv()} e compara-se a sua
+característica com a ordem do sistema $n$. Como
+$\mathrm{rank}(\mathcal{O}) = 2 = n$, o sistema é
+observável.
+\begin{lstlisting}[language=Matlab, caption={Resultado}, label={lst:obs_result}, numbers=none]
+O =
+     1     0
+     0     1
+r =
+     2
+O sistema é observável
+\end{lstlisting}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\begin{lstlisting}[language=Matlab]
+O = obsv(A, C)
+r = rank(O)
+if r == n
+    fprintf('O sistema é observável\n')
+else
+    fprintf('O sistema não é observável\n');
+end
+\end{lstlisting}
+\captionof{lstlisting}{Observabilidade}
+\label{lst:obsv}
+
+\end{minipage}
+
+\textbf{1.3)} Com $L=0$ a planta é estável ($\operatorname{eig}(A)=-0.75\pm4.41j$), logo o erro decai sozinho, sendo oscilatório, ao ritmo imposto pela planta.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/logo.png}
+        \label{fig:estados1}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/logo.png}
+        \label{fig:medicao1}
+    \end{subfigure}
+    \caption{Resultados da simulação com L = 0}
+    \label{fig:Simul 1}
+\end{figure}
+
+% Ex 2 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{2)}
+
+\textbf{2.1)} Em discreto, a estabilidade é definida pelo módulo dos polos ($|z|<1 =>$ Estável), porém -3 e -4 são polos contínuos, e aplicando a regra: $|-3|>1$ e $|-4|>1$, logo os polos estão fora do círculo unitário, indicando instabilidade.
+
+\textbf{2.2)}
+\noindent
+\begin{minipage}[t]{0.40\textwidth}
+Com os pólos escolhidos, a matriz de ganho do observador é calculada com \lstinline{place()}.
+\begin{lstlisting}[language=Matlab, caption={Resultado}, label={lst:obs_result}, numbers=none]
+pd =
+    0.9704    0.9608
+L =
+    0.0519
+   -0.1663
+\end{lstlisting}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\begin{lstlisting}[language=Matlab]
+pd = exp(cfg.poles*cfg.Ts)
+L = place(Ad',Cd',pd)'
+\end{lstlisting}
+\captionof{lstlisting}{Pólos e ganho do observador}
+\label{lst:obsv}
+
+\end{minipage}
+
+\textbf{2.3)}
+\begin{minipage}[t]{0.40\textwidth}
+$eig$ é igual a $p_d$ (a menos da ordem e de erros numéricos $\approx10^{-10}$, pelo que a comparação se faz com \texttt{sort} e tolerância, não com \texttt{==}).
+\begin{lstlisting}[language=Matlab, caption={Resultado}, label={lst:obs_result}, numbers=none]
+ei =
+    0.9608 
+    0.9704
+Os pólos coincidem
+\end{lstlisting}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\begin{lstlisting}[language=Matlab]
+ei = eig(Ad-L*Cd)
+if abs(sort(ei') - sort(pd)) < 1e-10
+    fprintf('Os pólos coincidem\n')
+else
+    fprintf('Os pólos não coincidem\n')
+end
+\end{lstlisting}
+\captionof{lstlisting}{Comparação de polos}
+\label{lst:polos}
+\end{minipage}
+
+% Ex 3 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{3)}
+
+\textbf{3.1--3.2)} 
+
+\begin{lstlisting}[language=Matlab, caption={Inovação e atualização do observador}, label={lst:inov}]
+innovation(j)=Y(j)-Cd*H(:,j);
+H(:,j+1)=Ad*H(:,j)+Bd*u(j)+L*innovation(j);
+\end{lstlisting}
+
+\textbf{3.3)} O observador converge em $\approx1.5$~s, sem oscilações, enquanto a
+malha aberta segue a dinâmica lenta da planta (Figura~\ref{fig:ex3}). A
+velocidade é corrigida sem ser medida porque está acoplada à posição: um erro
+em $\hat v$ desvia $\hat p$ da medida, o que aparece na inovação e é corrigido
+por $L$.
+\begin{figure}[htbp]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/logo.png}
+        \label{fig:estados3}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{img/logo.png}
+        \label{fig:medicao3}
+    \end{subfigure}
+    \caption{Resultados da simulação com observador}
+    \label{fig:ex3}
+\end{figure}
+
+\textbf{3.4)} $X(:,j)$ e $H(:,j)$ referem-se ao mesmo instante $t_j$.
+        Comparar $X(:,j)$ com $H(:,j{+}1)$ introduziria um erro de
+        desalinhamento $\approx T_s \dot{x}$, que não se anula (o sistema
+        é sempre excitado por $u$), mesmo com um observador perfeito.
+
+\textbf{Verificação:} após 10~s, $\|e\| = 5.07\times10^{-14} < 10^{-8}$. A convergência não implica $\hat{x}\to0$, pois o sistema continua a receber a entrada sinusoidal.
+
+\noindent\textbf{4)}
+
+\textbf{4.1)} Polos mais rápidos reduzem o transiente, mas exigem um ganho $L$ maior, amplificando o ruído, sobretudo na
+velocidade.
+
+\begin{table}[htbp]
+    \centering
+    \begin{minipage}[t]{0.35\textwidth}
+        \hspace*{1em}\textbf{4.2)} O caso c converge mais depressa, mas tem pior RMSE em regime: é o compromisso rapidez--ruído.
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.60\textwidth}
+        \vspace{0pt}
+        \centering
+        \caption{RMSE após 2 s.}
+        \label{tab:polos}
+        \begin{tabular}{lccc}\hline
+        Caso & Polos & RMSE $p$ [m] & RMSE $v$ [m/s]\\\hline
+        a ($\sigma=0$)    & $-3,-4$   & 6.181e-05 & 0.00016021\\
+        b ($\sigma=0.03$) & $-3,-4$   & 0.0044406 & 0.023322\\
+        c ($\sigma=0.03$) & $-12,-16$ & 0.011647  & 0.053313\\\hline
+        \end{tabular}
+    \end{minipage}
+\end{table}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{minipage}[t]{0.45\textwidth}
+        \vspace{0pt}
+        \raggedright
+        \hspace*{1em}\textbf{4.3)} \textbf{Azul:} massa real (só disponível em simulação); \textbf{verde:} estimativa
+do observador; \textbf{vermelho:} réplica em malha aberta. Com ruído,
+$y_j-C_d\hat x_j=C_de_j+n_j$: mesmo com $e=0$ a inovação fica igual ao ruído,
+logo não tende para zero. 
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.45\textwidth}
+        \vspace{0pt}
+        \centering
+        \includegraphics[width=\linewidth]{img/logo.png}
+        \caption{Frame da animação.}
+        \label{fig:estados}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \begin{minipage}[t]{0.45\textwidth}
+        \vspace{0pt}
+        \raggedright
+        \textbf{5)} Com $k_\text{real}=24$, subtraindo planta e observador: \[e_{j+1}=(A_d-LC_d)e_j+(A_r-A_d)x_j+(B_r-B_d)u_j\]
+O termo forçado não se anula, porque $x$ e $u$ são sinusoidais, logo o erro
+fica limitado mas não nulo (RMSE $\approx0.018$~m e $0.10$~m/s). Polos mais
+rápidos reduzem-no, à custa de maior sensibilidade ao ruído.
+    \end{minipage}
+    \hfill
+    \begin{minipage}[t]{0.45\textwidth}
+        \vspace{0pt}
+        \centering
+        \includegraphics[width=\linewidth]{img/logo.png}
+        \caption{Medição e inovação com $k_\text{real}=24$}
+        \label{fig:estados}
+    \end{minipage}
+\end{figure}
+
+\fi
+
+
+
+
+
+
+
+
+
+
+
+
+\printglossaries
+
+
+\end{document}
